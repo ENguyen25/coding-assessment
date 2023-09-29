@@ -1,1 +1,159 @@
-/* Write CSS rules here: */
+:root {
+    --orange: #FF9901;
+}
+
+body {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Alfa Slab One', cursive;
+    color: var(--orange);
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, button, input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.regular-white-text {
+    color: white;
+}
+
+.medium-text {
+    font-size: 24px;
+}
+
+button {
+    background-color: var(--orange);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+input {
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 5%;
+}
+
+.header img {
+    width: 100vw;
+}
+
+.logo-container {
+    z-index: 5;
+    position: absolute;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.logo-container img {
+    width: 5%;
+
+}
+
+.partner-logos, .partners p {
+    width: 35vw;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.partner-logos, .sponsor-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-section {
+    padding: 5%;
+    background-color: black;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-header {
+    width: 35%;
+    margin: 0 3% 3% 0;
+}
+
+.about-content p {
+    width: 60%
+}
+
+.staff-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.staff {
+    background-color: white;
+    padding: 2%;
+    width: 40%;
+}
+
+.sponsors {
+    padding: 5%;
+    background-image: url('assets/footer_image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sponsor-logos {
+    width: 60%;
+    margin: 0 auto 5% auto;
+}
+
+.sponsors h2 {
+    width: 30%;
+    margin: 0 auto 5% auto;
+}
+
+.sponsors h2 {
+    text-align: center;
+}
+
+.mailing-list {
+    background: black;
+    padding: 5%;
+}
+
+.form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
